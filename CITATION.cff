@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "ToothNotation: conversion between dental tooth-numbering systems"
+abstract: "A dependency-free library and interactive odontogram for converting between FDI (ISO 3950), Universal, and Palmer dental tooth-numbering systems, using FDI as a canonical representation and verified by exhaustive round-trip tests."
+authors:
+  - family-names: "Hezarani"
+version: 0.1.0
+date-released: 2026-06-10
+license: MIT
+keywords:
+  - dentistry
+  - tooth numbering
+  - FDI
+  - ISO 3950
+  - Universal numbering
+  - Palmer notation

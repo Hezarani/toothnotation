@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "toothnotation"
+version = "0.1.0"
+description = "Convert between dental tooth-numbering systems (FDI / ISO 3950, Universal, Palmer)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["dentistry", "dental", "fdi", "iso-3950", "universal-numbering", "palmer-notation", "odontogram", "healthcare", "tooth"]
+authors = [{ name = "Hezarani" }]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Healthcare Industry",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+toothnotation = "toothnotation.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/hezarani/toothnotation"
+Issues = "https://github.com/hezarani/toothnotation/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["toothnotation"]
