@@ -2,6 +2,11 @@
 
 **Convert between dental tooth-numbering systems — FDI (ISO 3950), Universal, and Palmer — with one source of truth and 293 verifying tests.**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21704141.svg)](https://doi.org/10.5281/zenodo.21704141)
+[![PyPI](https://img.shields.io/pypi/v/toothnotation.svg?color=2c8c9c&label=PyPI)](https://pypi.org/project/toothnotation/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-informational.svg)](LICENSE)
+[![Tests](https://img.shields.io/badge/tests-293%20passing-brightgreen.svg)](tests/)
+
 Tooth numbering is a perennial source of error and re-implementation in dental
 software: the US uses the **Universal** system (1–32, A–T), most of the world uses
 **FDI / ISO 3950** (two-digit quadrant codes), and clinicians often chart in
@@ -101,6 +106,20 @@ the same round-trip checks.
 | **FDI** (ISO 3950) | `11`–`48` (quadrant + position) | `51`–`85` | `36` |
 | **Universal** (US) | `1`–`32` | `A`–`T` | `19` |
 | **Palmer** | quadrant + `1`–`8` | quadrant + `A`–`E` | `LL6` |
+
+## References & prior work
+
+**Standards and guidance**
+
+- International Organization for Standardization (2016). *ISO 3950:2016 Dentistry — Designation system for teeth and areas of the oral cavity* (4th ed.). Geneva: ISO. <https://www.iso.org/standard/68292.html>
+- American Dental Association (2022). *Universal Tooth Designation System — Value Set, Version 1*. Chicago: ADA. <https://www.ada.org/-/media/project/ada-organization/ada/ada-org/files/publications/cdt/ada_utds_value_set_v1_2022_aug.pdf>
+- Leatherman, G. (1971). Two-digit system of designating teeth — FDI submission. *Australian Dental Journal* 16(6):394. [doi:10.1111/j.1834-7819.1971.tb03438.x](https://doi.org/10.1111/j.1834-7819.1971.tb03438.x)
+
+**Evidence that motivated it**
+
+- Peck, S. & Peck, L. (1993). A time for change of tooth numbering systems. *Journal of Dental Education* 57(8):643–647. [doi:10.1002/j.0022-0337.1993.57.8.tb02785.x](https://doi.org/10.1002/j.0022-0337.1993.57.8.tb02785.x)
+- Türp, J.C. & Alt, K.W. (1995). Designating teeth: the advantages of the FDI's two-digit system. *Quintessence International* 26(7):501–504. [PMID 8935036](https://pubmed.ncbi.nlm.nih.gov/8935036/) (no DOI)
+- Ferguson, J.W. (2005). The Palmer notation system and its use with personal computer applications. *British Dental Journal* 198(9):551–553. [doi:10.1038/sj.bdj.4812303](https://doi.org/10.1038/sj.bdj.4812303)
 
 ## Contributing
 

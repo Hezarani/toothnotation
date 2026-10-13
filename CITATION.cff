@@ -1,12 +1,25 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use ToothNotation, please cite it as below."
 title: "ToothNotation: conversion between dental tooth-numbering systems"
-abstract: "A dependency-free library and interactive odontogram for converting between FDI (ISO 3950), Universal, and Palmer dental tooth-numbering systems, using FDI as a canonical representation and verified by exhaustive round-trip tests."
+abstract: "A dependency-free Python library, CLI, and interactive React odontogram for converting between FDI (ISO 3950), Universal, and Palmer dental tooth-numbering systems, using FDI as a canonical representation and verified by exhaustive round-trip tests (293 tests)."
+type: software
 authors:
-  - family-names: "Hezarani"
-version: 0.1.0
-date-released: 2026-06-10
+  - family-names: "Boustani Hezarani"
+    given-names: "Hossein"
+    orcid: "https://orcid.org/0009-0007-8481-0498"
+version: "0.1.0"
+date-released: "2026-07-26"
 license: MIT
+doi: "10.5281/zenodo.21704140"
+repository-code: "https://github.com/Hezarani/toothnotation"
+url: "https://github.com/Hezarani/toothnotation"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21704140"
+    description: "Zenodo concept DOI (all versions; resolves to the latest)"
+  - type: doi
+    value: "10.5281/zenodo.21704141"
+    description: "Zenodo version DOI for v0.1.0"
 keywords:
   - dentistry
   - tooth numbering
@@ -14,3 +27,4 @@ keywords:
   - ISO 3950
   - Universal numbering
   - Palmer notation
+  - odontogram
